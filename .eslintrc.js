@@ -6,7 +6,7 @@ module.exports = {
   },
 
   extends: [
-    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
     'eslint:recommended',
     '@vue/typescript/recommended',
     'plugin:prettier/recommended'
@@ -18,15 +18,7 @@ module.exports = {
 
   rules: {
     'no-console': 'off',
-    'no-debugger': 'off',
-    'vue/component-definition-name-casing': 'error',
-    'vue/multi-word-component-names': 'error',
-    'vue/match-component-file-name': 'error',
-    'vue/require-name-property': 'error',
-    'vue/order-in-components': 'error',
-    'vue/padding-line-between-blocks': 'error',
-    'vue/require-prop-type-constructor': 'error',
-    'vue/require-prop-types': 'error'
+    'no-debugger': 'off'
   },
 
   overrides: [
