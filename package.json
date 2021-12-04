@@ -8,12 +8,10 @@
     "lint": "eslint --ext .js,.vue,.ts src"
   },
   "dependencies": {
-    "register-service-worker": "^1.7.2",
     "vue": "^3.2.23",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "@vitejs/plugin-vue": "^1.9.3",
