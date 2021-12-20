@@ -1,2 +1,2 @@
-import { routes as home } from '../modules/home'
-export default [...home]
+import { routes as main } from '../modules/main'
+export default [...main]
