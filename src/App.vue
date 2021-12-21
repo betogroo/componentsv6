@@ -1,6 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ReloadPWAVue from './ReloadPWA.vue'
+</script>
 
 <template>
+  <ReloadPWAVue />
   <div class="nav-bar">
     <div class="nav">
       <router-link :to="{ name: 'Home' }">Home</router-link> |
